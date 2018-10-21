@@ -220,6 +220,7 @@ def see_all_tweets():
     # HINT: Careful about what type the templating in all_tweets.html is expecting! It's a list of... not lists, but...
     # HINT #2: You'll have to make a query for the tweet and, based on that, another query for the username that goes with it...
     # TODO 364: Fill in this view function so it can successfully render the template all_users.html, which is provided.
+    # Git Test
     all_tweets = Tweet.query.all()
     tweets_users = []
 
