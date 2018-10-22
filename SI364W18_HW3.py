@@ -161,7 +161,7 @@ def internal_server_error(e):
 def index():
     # Initialize the form
 
-    form = TwitterForm(FlaskForm)
+    form = TwitterForm()
 
     # Get the number of Tweets
 
@@ -255,7 +255,7 @@ def get_longest_tweet():
 # Create a template to accompany it called longest_tweet.html that extends from base.html.
 
     return render_template('longest_tweet.html', longest_tweet = current, user = user)
-    
+
 # NOTE:
 # This view function should compute and render a template (as shown in the sample application) that shows the text of the tweet currently saved in the database which has the most NON-WHITESPACE characters in it, and the username AND display name of the user that it belongs to.
 # NOTE: This is different (or could be different) from the tweet with the most characters including whitespace!
