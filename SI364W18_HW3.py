@@ -1,4 +1,4 @@
-## SI 364 - Winter 2018
+## SI 364 - Fall 2018
 ## HW 3
 ## Partners: Danielle Meyerson, Nicole Ackerman-Greenberg, Lauren Sigurdson
 
